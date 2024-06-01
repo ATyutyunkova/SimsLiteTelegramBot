@@ -1,6 +1,7 @@
 package SimsLiteTelegramBot;
 
 import SimsLiteTelegramBot.Types.GenderType;
+
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -18,12 +19,12 @@ public class SimsLiteBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "SimsLiteBot";
+        return "";
     }
 
     @Override
     public String getBotToken() {
-        return "7233226789:AAGbHX-V07OxxFkrWcnEjKTSUASjURb6nDo";
+        return "";
     }
 
     public void onUpdateReceived(Update update) {
